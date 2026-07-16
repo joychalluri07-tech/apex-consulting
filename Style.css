@@ -1,0 +1,101 @@
+* 1. Global Settings (Fonts and Reset) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0b111e; /* Deep dark blue background */
+    color: #f3f4f6; /* Off-white text for easy reading */
+    line-height: 1.6;
+}
+
+/* 2. Header Style */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    border-bottom: 1px solid #1e293b;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b82f6; /* Cool blue color */
+    letter-spacing: 1px;
+}
+
+/* 3. Hero Section (The Main Showcase) */
+.hero {
+    text-align: center;
+    padding: 60px 5%;
+    background: radial-gradient(circle at top, #1e293b 0%, #0b111e 100%);
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #94a3b8; /* Soft gray for description */
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+}
+
+/* 4. Glowing Button Style */
+.cta-btn {
+    background-color: #3b82f6; /* Bright Blue */
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+    transition: background 0.3s ease;
+}
+
+.cta-btn:active {
+    background-color: #2563eb; /* Darker blue when clicked on mobile */
+}
+
+/* 5. Services Section */
+.services {
+    padding: 40px 5%;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+/* Individual Cards */
+.card {
+    background-color: #111827; /* Dark gray card background */
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    color: #3b82f6;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
