@@ -1,10 +1,10 @@
-function showMessage() {
-    // Replace the link inside the quotes with your real Calendly link!
-    const myCalendlyLink = "https://calendly.com/joychalluri07/30min"; 
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.getElementById("bookCallBtn");
     
-    window.open(myCalendlyLink, "_blank");
-    document.getElementById("myButton").addEventListener("click", function() {
-    window.open("YOUR_CALENDLY_LINK_HERE", "_blank");
+    if (button) {
+        button.addEventListener("click", function() {
+            // REPLACE THIS LINK WITH YOUR ACTUAL CALENDLY LINK!
+            window.location.href = "https://calendly.com/YOUR_CALENDLY_USERNAME";
+        });
+    }
 });
-    
-}
